@@ -1,0 +1,7 @@
+{
+  "name": "workshop4-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo Building project... && mkdir dist && echo '<h1>Hello GitHub Pages!</h1>' > dist/index.html"
+  }
+}
