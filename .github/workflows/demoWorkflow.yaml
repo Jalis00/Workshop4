@@ -1,0 +1,12 @@
+﻿name: A simple demo workflow
+on:
+  push:
+    branches: [main]
+jobs:
+  demo-job:
+    runs-on: windows-latest
+    steps:
+      - name: Show Node version
+        run: node --version
+      - name: Show npm version
+        run: npm --version
